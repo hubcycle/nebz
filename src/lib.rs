@@ -57,6 +57,16 @@ impl<T> NonEmptyBz<T> {
 	}
 }
 
+impl<T> NonEmptyBz<&T> {
+	/// Maps a `NonEmptyBz<&T>` to `NonEmptyBz<T>` by cloning the contained value.
+	pub fn cloned(&self) -> NonEmptyBz<T>
+	where
+		T: Clone,
+	{
+		NonEmptyBz(self.0.clone())
+	}
+}
+
 impl<const N: usize> NonEmptyBz<[u8; N]> {
 	/// Creates a [`NonEmptyBz`] containing the array `bz`.
 	///
