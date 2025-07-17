@@ -1,5 +1,7 @@
 //! An immutable non-empty bytes container.
 
+#![cfg_attr(docsrs, feature(doc_auto_cfg))]
+
 /// A container to `T` that is known to be non-empty.
 ///
 /// A `T: AsRef<[u8]>` is empty if `AsRef::<[u8]>::as_ref(&T).is_empty()` is `true`.
