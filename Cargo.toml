@@ -6,6 +6,7 @@ description = "an immutable non-empty bytes container"
 readme = "README.md"
 repository = "https://github.com/hubcycle/nebz"
 license = "MIT OR Apache-2.0"
+publish = true
 
 [features]
 default = []
