@@ -2,5 +2,8 @@
 name = "nebz"
 version = "0.1.0"
 edition = "2024"
+description = "an immutable non-empty bytes container"
+readme = "README.md"
+repository = "https://github.com/hubcycle/nebz"
 
 [dependencies]
