@@ -8,6 +8,10 @@ repository = "https://github.com/hubcycle/nebz"
 license = "MIT OR Apache-2.0"
 publish = true
 
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
 [features]
 default = []
 bytes = ["dep:bytes"]
