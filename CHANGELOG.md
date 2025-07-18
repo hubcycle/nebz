@@ -33,13 +33,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
  - <csr-id-ad7e532ac221e4c1bbc4673903e3aff1e1e75381/> implement NonEmptyBz
  - <csr-id-a5a5620f484361ddad58c0beb7dbe6639a6c487d/> add cloned method
+ - <csr-id-d9c5b1cefb8c2b78ff88b95825f74124b4332607/> add infalliable first-last accessor methods
+   - provide `first()`, `last()`, `split_first()`, `split_last()` methods.
+   - use unsafe blocks for performance, and throughly document the safety.
+   - add tests and miri workflow to ci.
 
 ### Commit Statistics
 
 <csr-read-only-do-not-edit/>
 
- - 4 commits contributed to the release.
- - 2 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 3 commits contributed to the release.
+ - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' were seen in commit messages
 
 ### Commit Details
@@ -49,6 +53,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - Merge pull request #7 from hubcycle/feature/6-infalliable-first-last ([`f7a5cad`](https://github.com/hubcycle/nebz/commit/f7a5cad188ae90957e2bb2569f80d5e4f3f88d9b))
+    - Add infalliable first-last accessor methods ([`d9c5b1c`](https://github.com/hubcycle/nebz/commit/d9c5b1cefb8c2b78ff88b95825f74124b4332607))
+    - Merge pull request #5 from hubcycle/release/v0.1.1 ([`1c36b38`](https://github.com/hubcycle/nebz/commit/1c36b38cf71de77a621e04c5faae7c938ff3c7b1))
+</details>
+
+## 0.1.1 (2025-07-18)
+
+### Chore
+
+ - <csr-id-f8cfcfeb5eb7a1799e8e30f0bf60774722a6bab7/> add changelog
+
+### Documentation
+
+ - <csr-id-0b86ae0651febfa814f7df008cae7d2bf582695d/> show methods behind feature flag bytes
+
+### New Features
+
+ - <csr-id-a5a5620f484361ddad58c0beb7dbe6639a6c487d/> add cloned method
+
+### Commit Statistics
+
+<csr-read-only-do-not-edit/>
+
+ - 5 commits contributed to the release.
+ - 3 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 0 issues like '(#ID)' were seen in commit messages
+
+### Commit Details
+
+<csr-read-only-do-not-edit/>
+
+<details><summary>view details</summary>
+
+ * **Uncategorized**
+    - Add changelog ([`f8cfcfe`](https://github.com/hubcycle/nebz/commit/f8cfcfeb5eb7a1799e8e30f0bf60774722a6bab7))
     - Merge pull request #4 from hubcycle/dev ([`94fc052`](https://github.com/hubcycle/nebz/commit/94fc052794568932de2452cc8d441d75bf065af5))
     - Show methods behind feature flag bytes ([`0b86ae0`](https://github.com/hubcycle/nebz/commit/0b86ae0651febfa814f7df008cae7d2bf582695d))
     - Merge pull request #3 from hubcycle/dev ([`df471fa`](https://github.com/hubcycle/nebz/commit/df471fa54c48771ab456987a939d6b648498f364))
@@ -56,6 +95,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 </details>
 
 ## 0.1.0 (2025-07-18)
+
+<csr-id-6923fd24ed8c89b262c326f57897eecd379c420c/>
+<csr-id-b903cf4956dd89a6999bfb83d46b814822e6b240/>
+<csr-id-3164ba3347f3bc82b88bb88db29e51d2b13bc363/>
+<csr-id-82c926831fc6c8a5c67e6453555cfb6624d60700/>
+<csr-id-7d8da29c8102787d05b2c565a14c5dba61b2f10b/>
+<csr-id-74fbbaf94e518acc6cbaf1dcc8196a7922710214/>
+<csr-id-f58dfa77507a33330158973f772bcec09574cb3f/>
+<csr-id-6fb66df4aa42537aaf7f415233e02dc6cfd647b8/>
 
 ### Chore
 
