@@ -147,6 +147,11 @@ impl<'a, const N: usize> NonEmptyBz<&'a [u8; N]> {
 		const { assert!(N != 0) }
 		Self(bz)
 	}
+
+	/// Converts a `NonEmptyBz<&[u8; N]` to `NonEmptyBz<&[u8]>`.
+	pub const fn as_slice(&self) -> NonEmptyBz<&'a [u8]> {
+		NonEmptyBz(self.0)
+	}
 }
 
 #[cfg(feature = "bytes")]
